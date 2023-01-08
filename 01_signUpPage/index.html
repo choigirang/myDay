@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Paw</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Seymour+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+</head>
+<body style="cursor: url(img/paw.cur);">
+    <div class="alter">Welcome<br>MEOW MUEW</div>
+    <div class="alterBg"></div>
+    <div class="container">
+        <div class="signFailureMessage"></div>
+        <img src="img/cat_hi.png" alt="hicat" class="cat_hi">
+        <p>MEOW MUEW</p>
+        <div class="contentPosition">
+            <fieldset>
+                <p>E-Meowil</p>
+                <input type="text" id="email" placeholder="email meow">
+            </fieldset>
+            <div class="email-failure hide errorMessage">* e-mail format plz, meow</div>
+
+            <fieldset>
+                <p>ID</p>
+                <input type="text" id="name" placeholder="name meow">
+            </fieldset>
+            <div class="name-failure hide errorMessage">* More than 4 letters, only Eng or combine numbers and Eng</div>
+            <div class="name-success hide successMessage">* Available names</div>
+            <fieldset>
+                <p>PW</p>
+                <input type="password" id="password" placeholder="password meow">
+                <input type="password" id="passwordAgain" placeholder="re-enter plz meow">
+            </fieldset>
+            <div class="password-failure hide errorMessage">* More than 8 letters, including spcial symbol,Eng,number</div>
+            <div class="password-failure-match hide errorMessage">* password doesn't match, meow</div>
+
+            <div class="btn_box">
+                <button class="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
