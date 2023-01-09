@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Silkscreen', cursive; */
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    font-weight: 100
+    ;
+}
+
+/* body */
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* userInputContainer */
+section.userInputContainer{
+    height: 20%;
+    width: 50%;
+    background-color: gray;
+    overflow: hidden;
+}
+
+form.form{
+    width: 100%;
+    padding: 3% 3%;
+}
+
+div.formInput{
+    width: 100%;
+    height: 100%;
+}
+
+div.inputForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* communityContainer */
+section.communityContainer{
+    width: 50%;
+    height: 80%;
+    background-color: black;
+}
+
+li.commentContainer{
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: end;
+}
+
+li.commentContainer img{
+    width: 70px;
+}
+
+div.comment{
+    width: 60%;
+    word-break: break-all;
+    text-align: center;
+}
+
+h2.commentTitle{
+    font-weight: 800;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+h2.commentTitle a{
+    font-weight: 800;
+}
+
+div.commentInformation{
+    margin-top: 5%;
+}
