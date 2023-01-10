@@ -79,7 +79,8 @@ const convertToDiscussion = (obj) => {
     // => 11개이면 2개의 페이지가 있어야하기 때문에 1.1 => 2
     const pageBox = document.querySelector(".pageBox")
     const pageBtn = document.createElement("button")
-    pageBtn.className = pageBtn 
+    pageBtn.className = pageBtn
+    
     // 페이지당 data의 length를 10으로 끊어 보여줘야한다.
 
     // button의 갯수는 data.length/10으로 나눈 값을 올림한만큼
